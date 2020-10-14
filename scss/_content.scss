@@ -1,0 +1,35 @@
+.content {
+  padding: 30px 0 30px 0;
+  // .content__body
+  &__body {
+    text-align: center;
+  }
+
+  // .content__text
+  &__title {
+  }
+
+  // .content__image
+  &__image {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 30px 0;
+    z-index: 5555;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.container {
+}
+.s {
+}

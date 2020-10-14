@@ -1,0 +1,69 @@
+.contacts {
+  // .contacts__body
+  &__body {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  // .contacts__img
+  /*
+  &__img {
+    flex: 0 0 50%;
+    position: relative;
+    height: 200px;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }*/
+
+  // .contacts__data
+
+  &__data {
+    flex: 0 0 50%;
+    text-align: center;
+    z-index: 5555;
+  }
+
+  // .contacts__icons
+
+  &__icons {
+    margin: 0 0 30px 0;
+  }
+
+  // .contacts__telephone
+
+  &__telephone {
+    span {
+      position: relative;
+      font-size: 30px;
+      height: 40px;
+      width: 40px;
+      /*
+      &:before {
+        content: url("../img/contacts/phone.svg");
+        position: absolute;
+        top: -2px;
+        left: -20px;
+        height: 100%;
+        width: 100%;
+      }*/
+    }
+  }
+}
+
+.icons {
+  a {
+    margin: 0 30px 0 0;
+  }
+}

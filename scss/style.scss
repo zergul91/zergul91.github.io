@@ -1,0 +1,86 @@
+@import "base/reset";
+@import "base/typography";
+@import "header";
+@import "content";
+@import "gallery";
+@import "adventages";
+@import "footer";
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 120px;
+  left: 0;
+
+  svg {
+    //position: fixed;
+    //top: 0;
+    //left: 0;
+  }
+  z-index: 1;
+  //stroke-dasharray: 4px;
+
+  //stroke-dasharray: 0, 0;
+}
+.st0 {
+  fill: none;
+  stroke-dashoffset: 3px;
+  stroke: red;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 20;
+}
+
+.mask-style {
+  stroke: white;
+  stroke-width: 7;
+}
+/*
+.wave {
+  height: 100%;
+  position: relative;
+}
+
+.wave:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    #000 13px
+  );
+}
+.wave:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    #fff 13px
+  );
+}
+*/
